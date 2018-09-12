@@ -1,0 +1,35 @@
+{
+  "name": "slack-next-rotation-bot",
+  "description": "A dumb little slack bot that just rotates a list on command and keeps track of the order",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gsingers/slack-next-rotation-bot",
+  "author": {
+    "name": "Grant Ingersoll",
+    "email": "gsingers@apache.org",
+    "url": "http://grantingersoll.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gsingers/slack-next-rotation-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gsingers/slack-next-rotation-bot/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "request": "~2.60.0",
+    "underscore": "^1.7.0",
+    "node-slackbot": "0.0.6",
+    "q": "1.1.2"
+  },
+  "devDependencies": {},
+  "bin": {
+    "bot": "bin/bot.js"
+  },
+  "keywords": [
+    "slack"
+  ]
+}
